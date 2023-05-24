@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Diabetes Detector</title>
+    <style>
+    td
+    {
+    padding:15px;
+
+    }
+    input[type="submit"] {
+        width: 200px;
+        height: 35px;
+
+    }
+
+</style>
+
+</head>
+
+<body style="display:flex;justify-content:center;align-items:center;height:700px;background-color:#BDD5E7;">
+ <div >
+<h1 style="text-align:center;">Diabetes Detector</h1>
+
+<form action="/" method="post" >
+    <table >
+        <tr>
+            <td><label for="pregnancies">Pregnancies:</label></td>
+            <td><input type="number" id="pregnancies" name="pregnancies" required></td>
+        </tr>
+        <tr>
+
+            <td><label for="glucose">Glucose:</label></td>
+            <td><input type="number" id="glucose" name="glucose" required></td>
+        </tr>
+        <tr>
+
+            <td><label for="blood_pressure">Blood Pressure:</label></td>
+            <td><input type="number" id="blood_pressure" name="blood_pressure" required></td>
+        </tr>
+        <tr>
+
+            <td><label for="skin_thickness">Skin Thickness:</label></td>
+            <td><input type="number" id="skin_thickness" name="skin_thickness" required></td>
+        </tr>
+        <tr>
+
+            <td><label for="insulin">Insulin:</label></td>
+            <td><input type="number" id="insulin" name="insulin" required></td>
+        </tr>
+        <tr>
+
+            <td><label for="bmi">BMI:</label></td>
+            <td><input type="number" id="bmi" name="bmi" step="0.001" required></td>
+        </tr>
+        <tr>
+
+            <td><label for="diabetes_pedigree">Diabetes Pedigree Function:</label></td>
+            <td><input type="number" id="diabetes_pedigree" name="diabetes_pedigree" step="0.001"></td>
+        </tr>
+        <tr>
+
+            <td><label for="age">Age:</label></td>
+            <td><input type="number" id="age" name="age" required></td>
+        </tr>
+    </table>
+<div style="text-align:center;margin-top:50px;">
+    <input  type="submit" value="Submit"  >
+    </div>
+</form>
+    </div>
+</body>
+</html>
